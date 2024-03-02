@@ -20,11 +20,11 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(true);
         mWebView.setWebViewClient(new MyWebViewClient());
 
-        // REMOTE RESOURCE
-        // mWebView.loadUrl("https://example.com");
+         REMOTE RESOURCE
+         mWebView.loadUrl("https://docdemo.inubix.com");
 
-        // LOCAL RESOURCE
-        // mWebView.loadUrl("file:///android_asset/index.html");
+         LOCAL RESOURCE
+         mWebView.loadUrl("file:///android_asset/index.html");
     }
 
     @Override
